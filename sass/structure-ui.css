@@ -3,3 +3,148 @@
  * Copyright 2020 The Minh Pham Author
  * Contact me (https://facebook.com/mqp99)
  */
+/**
+ * Disabled select color safari
+*/
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #161616;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/**
+ * Reset <h1> to <h6>
+*/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 0;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+h1, .h1 {
+  font-size: 2.25rem;
+}
+
+h2, .h2 {
+  font-size: 1.85rem;
+}
+
+h3, .h3 {
+  font-size: 1.65rem;
+}
+
+h4, .h4 {
+  font-size: 1.35rem;
+}
+
+h5, .h5 {
+  font-size: 1.15rem;
+}
+
+h6, .h6 {
+  font-size: 0.85rem;
+}
+
+/**
+ * Reset margin <p>
+*/
+p {
+  margin: 0.5rem 0;
+}
+
+/**
+ * Reset color <a>
+*/
+a {
+  color: #3399ff;
+}
+
+/**
+ * Reset font bolder <a>
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Reset all button cursor <a>
+*/
+button,
+button[type=button],
+button[type=reset],
+button[type=submit] {
+  cursor: pointer;
+  border: 1px solid #888;
+  border-radius: 0;
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove spacing table
+*/
+table {
+  border-collapse: collapse;
+}
+
+/**
+ * Suport IE
+*/
+main {
+  display: block;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Root fontsize
+ */
+small {
+  font-size: 0.8em;
+}
+
+/**
+ * Reset `textarea` vs `input` eval
+ */
+input,
+textarea {
+  font-size: 1em;
+  border: 1px solid #888;
+  font-family: sans-serif;
+}
