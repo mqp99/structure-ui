@@ -4,6 +4,14 @@
  * Contact me (https://facebook.com/mqp99)
  */
 /**
+ * Breakpoint:
+ * 1. xl <= 1200px
+ * 2. lg <= 1024px
+ * 3. md <= 900px
+ * 4. sm <= 768px
+ * 4. xs <= 500px
+ */
+/**
  * Disabled select color safari
 */
 html {
