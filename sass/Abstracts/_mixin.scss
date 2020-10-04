@@ -35,7 +35,7 @@
 @mixin create-breakpoint-col($breakpoint, $size) {
 	.col-#{$breakpoint}-#{$size} {
 		flex: 0 0 auto;
-		width: auto;
+		width: 100%;
     	max-width: 100%;
 	}
 }
@@ -43,5 +43,141 @@
 @mixin create-breakpoint-col-push($breakpoint, $size) {
 	.push-#{$breakpoint}-#{$size} {
 		margin-left: 0;
+	}
+}
+
+
+@mixin create-bg($bgColor) {
+	$number: 0;
+	@if $bgColor == 'primary' {
+		@each $color in $clr-primary,$clr-primary-1,$clr-primary-2,$clr-primary-3,$clr-primary-4,$clr-primary-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
+	}@else if $bgColor == 'dark' {
+		@each $color in $clr-dark,$clr-dark-1,$clr-dark-2,$clr-dark-3,$clr-dark-4,$clr-dark-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
+	}@else if $bgColor == 'black' {
+		@each $color in $clr-black,$clr-black-1,$clr-black-2,$clr-black-3,$clr-black-4,$clr-black-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
+	}@else if $bgColor == 'gray' {
+		@each $color in $clr-gray,$clr-gray-1,$clr-gray-2,$clr-gray-3,$clr-gray-4,$clr-gray-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
+	}@else if $bgColor == 'light' {
+		@each $color in $clr-light,$clr-light-1,$clr-light-2,$clr-light-3,$clr-light-4,$clr-light-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
+	}@else if $bgColor == 'pink' {
+		@each $color in $clr-pink,$clr-pink-1,$clr-pink-2,$clr-pink-3,$clr-pink-4,$clr-pink-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
+	}@else if $bgColor == 'red' {
+		@each $color in $clr-red,$clr-red-1,$clr-red-2,$clr-red-3,$clr-red-4,$clr-red-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
+	}@else if $bgColor == 'blue' {
+		@each $color in $clr-blue,$clr-blue-1,$clr-blue-2,$clr-blue-3,$clr-blue-4,$clr-blue-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
+	}@else if $bgColor == 'green' {
+		@each $color in $clr-green,$clr-green-1,$clr-green-2,$clr-green-3,$clr-green-4,$clr-green-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
+	}@else if $bgColor == 'orange' {
+		@each $color in $clr-orange,$clr-orange-1,$clr-orange-2,$clr-orange-3,$clr-orange-4,$clr-orange-5, {
+			@if $number == 0 {
+				.bg-#{$bgColor} {
+					background-color: $color;
+				}
+			}@else {
+				.bg-#{$bgColor}-#{$number} {
+					background-color: $color;
+				}
+			}
+			$number: $number + 1;
+		}
 	}
 }

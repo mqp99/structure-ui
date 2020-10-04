@@ -949,6 +949,246 @@ textarea {
   order: 12;
 }
 
+.bg-dark {
+  background-color: #212121;
+}
+
+.bg-dark-1 {
+  background-color: #242424;
+}
+
+.bg-dark-2 {
+  background-color: #272727;
+}
+
+.bg-dark-3 {
+  background-color: #2a2a2a;
+}
+
+.bg-dark-4 {
+  background-color: #2c2c2c;
+}
+
+.bg-dark-5 {
+  background-color: #2f2f2f;
+}
+
+.bg-black {
+  background-color: #111111;
+}
+
+.bg-black-1 {
+  background-color: #151515;
+}
+
+.bg-black-2 {
+  background-color: #171717;
+}
+
+.bg-black-3 {
+  background-color: #191919;
+}
+
+.bg-black-4 {
+  background-color: #1c1c1c;
+}
+
+.bg-black-5 {
+  background-color: #1f1f1f;
+}
+
+.bg-gray {
+  background-color: #8e8e8e;
+}
+
+.bg-gray-1 {
+  background-color: #a0a0a0;
+}
+
+.bg-gray-2 {
+  background-color: #b3b2b2;
+}
+
+.bg-gray-3 {
+  background-color: #c3c3c3;
+}
+
+.bg-gray-4 {
+  background-color: #cecece;
+}
+
+.bg-gray-5 {
+  background-color: #dadada;
+}
+
+.bg-light {
+  background-color: #dcdcdc;
+}
+
+.bg-light-1 {
+  background-color: #e6e6e6;
+}
+
+.bg-light-2 {
+  background-color: #ecebeb;
+}
+
+.bg-light-3 {
+  background-color: #f2f2f2;
+}
+
+.bg-light-4 {
+  background-color: #f9f9f9;
+}
+
+.bg-light-5 {
+  background-color: #fff;
+}
+
+.bg-pink {
+  background-color: #b92268;
+}
+
+.bg-pink-1 {
+  background-color: #ce3079;
+}
+
+.bg-pink-2 {
+  background-color: #dc448a;
+}
+
+.bg-pink-3 {
+  background-color: #ec5ea2;
+}
+
+.bg-pink-4 {
+  background-color: #ea7db1;
+}
+
+.bg-pink-5 {
+  background-color: #ec91bc;
+}
+
+.bg-red {
+  background-color: #c52c2c;
+}
+
+.bg-red-1 {
+  background-color: #c54545;
+}
+
+.bg-red-2 {
+  background-color: #d85757;
+}
+
+.bg-red-3 {
+  background-color: #e07373;
+}
+
+.bg-red-4 {
+  background-color: #dc8686;
+}
+
+.bg-red-5 {
+  background-color: #dc9999;
+}
+
+.bg-blue {
+  background-color: #2c69c5;
+}
+
+.bg-blue-1 {
+  background-color: #4578c5;
+}
+
+.bg-blue-2 {
+  background-color: #5789d8;
+}
+
+.bg-blue-3 {
+  background-color: #739de0;
+}
+
+.bg-blue-4 {
+  background-color: #86a7dc;
+}
+
+.bg-blue-5 {
+  background-color: #99b3dc;
+}
+
+.bg-green {
+  background-color: #27b32b;
+}
+
+.bg-green-1 {
+  background-color: #47c545;
+}
+
+.bg-green-2 {
+  background-color: #57d85b;
+}
+
+.bg-green-3 {
+  background-color: #75e073;
+}
+
+.bg-green-4 {
+  background-color: #90e28e;
+}
+
+.bg-green-5 {
+  background-color: #a3eaa2;
+}
+
+.bg-orange {
+  background-color: #f98b1a;
+}
+
+.bg-orange-1 {
+  background-color: #fb9832;
+}
+
+.bg-orange-2 {
+  background-color: #fda03f;
+}
+
+.bg-orange-3 {
+  background-color: #fba953;
+}
+
+.bg-orange-4 {
+  background-color: #fdb162;
+}
+
+.bg-orange-5 {
+  background-color: #fdbe7d;
+}
+
+.bg-primary {
+  background-color: #424152;
+}
+
+.bg-primary-1 {
+  background-color: #515065;
+}
+
+.bg-primary-2 {
+  background-color: #676679;
+}
+
+.bg-primary-3 {
+  background-color: #767686;
+}
+
+.bg-primary-4 {
+  background-color: #878794;
+}
+
+.bg-primary-5 {
+  background-color: #92929e;
+}
+
 @media (max-width: 1200px) {
   .container.use-breakpoint {
     max-width: 1024px;
@@ -956,73 +1196,73 @@ textarea {
 
   .col-xl-1 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-2 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-3 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-4 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-5 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-6 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-7 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-8 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-9 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-10 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-11 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xl-12 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
@@ -1077,73 +1317,73 @@ textarea {
 
   .col-lg-1 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-2 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-3 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-5 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-6 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-7 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-8 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-9 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-10 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-11 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-lg-12 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
@@ -1198,73 +1438,73 @@ textarea {
 
   .col-md-1 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-2 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-3 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-4 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-5 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-6 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-7 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-8 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-9 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-10 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-11 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-md-12 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
@@ -1319,73 +1559,73 @@ textarea {
 
   .col-sm-1 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-2 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-3 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-4 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-5 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-6 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-7 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-8 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-9 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-10 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-11 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-sm-12 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
@@ -1436,73 +1676,73 @@ textarea {
 @media (max-width: 500px) {
   .col-xs-1 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-2 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-3 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-4 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-5 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-6 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-7 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-8 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-9 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-10 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-11 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
   .col-xs-12 {
     flex: 0 0 auto;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
 
