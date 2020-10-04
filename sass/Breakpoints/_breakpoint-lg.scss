@@ -1,5 +1,5 @@
 @include breakpoint('lg', $breakpoint-lg) {
-	.container.use-breakpoint {
+	.container {
 		max-width: 900px;
 	}
 	@for $i from 1 through 12 {

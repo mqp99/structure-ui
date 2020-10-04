@@ -1,5 +1,5 @@
 @include breakpoint('sm', $breakpoint-sm) {
-	.container.use-breakpoint {
+	.container {
 		max-width: 650px;
 	}
 	@for $i from 1 through 12 {

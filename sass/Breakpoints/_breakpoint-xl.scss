@@ -1,5 +1,5 @@
 @include breakpoint('xl', $breakpoint-xl) {
-	.container.use-breakpoint {
+	.container {
 		max-width: 1024px;
 	}
 	@for $i from 1 through 12 {

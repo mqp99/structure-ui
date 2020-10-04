@@ -1430,7 +1430,7 @@ textarea {
 }
 
 @media (max-width: 1200px) {
-  .container.use-breakpoint {
+  .container {
     max-width: 1024px;
   }
 
@@ -1551,7 +1551,7 @@ textarea {
   }
 }
 @media (max-width: 1024px) {
-  .container.use-breakpoint {
+  .container {
     max-width: 900px;
   }
 
@@ -1672,7 +1672,7 @@ textarea {
   }
 }
 @media (max-width: 900px) {
-  .container.use-breakpoint {
+  .container {
     max-width: 768px;
   }
 
@@ -1793,7 +1793,7 @@ textarea {
   }
 }
 @media (max-width: 768px) {
-  .container.use-breakpoint {
+  .container {
     max-width: 650px;
   }
 

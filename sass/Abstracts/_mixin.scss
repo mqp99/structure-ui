@@ -46,7 +46,6 @@
 	}
 }
 
-
 @mixin create-bg($bgColor) {
 	$number: 0;
 	@if $bgColor == 'primary' {
