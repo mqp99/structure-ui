@@ -3,3 +3,45 @@
 		@content;
 	}
 }
+
+@mixin create-row {
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: -10px;
+		margin-left: -10px;
+	}
+}
+
+@mixin create-col($breakpoint, $size) {
+	.col-#{$breakpoint}-#{$size} {
+		flex: 0 0 ($size * 8.333333333334%);
+    	max-width: $size * 8.333333333334%;
+	}
+}
+
+@mixin create-col-push($breakpoint, $size) {
+	.push-#{$breakpoint}-#{$size} {
+		margin-left: $size * 8.333333333334%;
+	}
+}
+
+@mixin create-col-pull($breakpoint, $size) {
+	.pull-#{$breakpoint}-#{$size} {
+		order: $size;
+	}
+}
+
+@mixin create-breakpoint-col($breakpoint, $size) {
+	.col-#{$breakpoint}-#{$size} {
+		flex: 0 0 auto;
+		width: auto;
+    	max-width: 100%;
+	}
+}
+
+@mixin create-breakpoint-col-push($breakpoint, $size) {
+	.push-#{$breakpoint}-#{$size} {
+		margin-left: 0;
+	}
+}

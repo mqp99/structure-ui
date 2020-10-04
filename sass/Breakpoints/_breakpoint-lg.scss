@@ -1,3 +1,11 @@
 @include breakpoint('lg', $breakpoint-lg) {
-	
+	.container.use-breakpoint {
+		max-width: 900px;
+	}
+	@for $i from 1 through 12 {
+		@include create-breakpoint-col('lg', $i);
+	}
+	@for $i from 1 through 11 {
+		@include create-breakpoint-col-push('lg', $i);
+	}
 }

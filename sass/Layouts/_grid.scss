@@ -1,0 +1,25 @@
+@include create-row;
+
+@for $i from 1 through 12 {
+	@include create-col('xl', $i);
+	@include create-col('lg', $i);
+	@include create-col('md', $i);
+	@include create-col('sm', $i);
+	@include create-col('xs', $i);
+}
+
+@for $i from 1 through 11 {
+	@include create-col-push('xl', $i);
+	@include create-col-push('lg', $i);
+	@include create-col-push('md', $i);
+	@include create-col-push('sm', $i);
+	@include create-col-push('xs', $i);
+}
+
+@for $i from 1 through 12 {
+	@include create-col-pull('xl', $i);
+	@include create-col-pull('lg', $i);
+	@include create-col-pull('md', $i);
+	@include create-col-pull('sm', $i);
+	@include create-col-pull('xs', $i);
+}

@@ -1,3 +1,11 @@
 @include breakpoint('sm', $breakpoint-sm) {
-	
+	.container.use-breakpoint {
+		max-width: 650px;
+	}
+	@for $i from 1 through 12 {
+		@include create-breakpoint-col('sm', $i);
+	}
+	@for $i from 1 through 11 {
+		@include create-breakpoint-col-push('sm', $i);
+	}
 }

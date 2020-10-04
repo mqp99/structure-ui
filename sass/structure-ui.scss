@@ -11,6 +11,9 @@
 @import './Base/reset';
 @import	'./Base/typography';
 
+@import	'./Layouts/container';
+@import	'./Layouts/grid';
+
 @import './Breakpoints/breakpoint-xl';
 @import './Breakpoints/breakpoint-lg';
 @import	'./Breakpoints/breakpoint-md';
