@@ -949,6 +949,246 @@ textarea {
   order: 12;
 }
 
+.text-dark {
+  color: #212121;
+}
+
+.text-dark-1 {
+  color: #242424;
+}
+
+.text-dark-2 {
+  color: #272727;
+}
+
+.text-dark-3 {
+  color: #2a2a2a;
+}
+
+.text-dark-4 {
+  color: #2c2c2c;
+}
+
+.text-dark-5 {
+  color: #2f2f2f;
+}
+
+.text-black {
+  color: #111111;
+}
+
+.text-black-1 {
+  color: #151515;
+}
+
+.text-black-2 {
+  color: #171717;
+}
+
+.text-black-3 {
+  color: #191919;
+}
+
+.text-black-4 {
+  color: #1c1c1c;
+}
+
+.text-black-5 {
+  color: #1f1f1f;
+}
+
+.text-gray {
+  color: #8e8e8e;
+}
+
+.text-gray-1 {
+  color: #a0a0a0;
+}
+
+.text-gray-2 {
+  color: #b3b2b2;
+}
+
+.text-gray-3 {
+  color: #c3c3c3;
+}
+
+.text-gray-4 {
+  color: #cecece;
+}
+
+.text-gray-5 {
+  color: #dadada;
+}
+
+.text-light {
+  color: #dcdcdc;
+}
+
+.text-light-1 {
+  color: #e6e6e6;
+}
+
+.text-light-2 {
+  color: #ecebeb;
+}
+
+.text-light-3 {
+  color: #f2f2f2;
+}
+
+.text-light-4 {
+  color: #f9f9f9;
+}
+
+.text-light-5 {
+  color: #fff;
+}
+
+.text-pink {
+  color: #b92268;
+}
+
+.text-pink-1 {
+  color: #ce3079;
+}
+
+.text-pink-2 {
+  color: #dc448a;
+}
+
+.text-pink-3 {
+  color: #ec5ea2;
+}
+
+.text-pink-4 {
+  color: #ea7db1;
+}
+
+.text-pink-5 {
+  color: #ec91bc;
+}
+
+.text-red {
+  color: #c52c2c;
+}
+
+.text-red-1 {
+  color: #c54545;
+}
+
+.text-red-2 {
+  color: #d85757;
+}
+
+.text-red-3 {
+  color: #e07373;
+}
+
+.text-red-4 {
+  color: #dc8686;
+}
+
+.text-red-5 {
+  color: #dc9999;
+}
+
+.text-blue {
+  color: #2c69c5;
+}
+
+.text-blue-1 {
+  color: #4578c5;
+}
+
+.text-blue-2 {
+  color: #5789d8;
+}
+
+.text-blue-3 {
+  color: #739de0;
+}
+
+.text-blue-4 {
+  color: #86a7dc;
+}
+
+.text-blue-5 {
+  color: #99b3dc;
+}
+
+.text-green {
+  color: #27b32b;
+}
+
+.text-green-1 {
+  color: #47c545;
+}
+
+.text-green-2 {
+  color: #57d85b;
+}
+
+.text-green-3 {
+  color: #75e073;
+}
+
+.text-green-4 {
+  color: #90e28e;
+}
+
+.text-green-5 {
+  color: #a3eaa2;
+}
+
+.text-orange {
+  color: #f98b1a;
+}
+
+.text-orange-1 {
+  color: #fb9832;
+}
+
+.text-orange-2 {
+  color: #fda03f;
+}
+
+.text-orange-3 {
+  color: #fba953;
+}
+
+.text-orange-4 {
+  color: #fdb162;
+}
+
+.text-orange-5 {
+  color: #fdbe7d;
+}
+
+.text-primary {
+  color: #424152;
+}
+
+.text-primary-1 {
+  color: #515065;
+}
+
+.text-primary-2 {
+  color: #676679;
+}
+
+.text-primary-3 {
+  color: #767686;
+}
+
+.text-primary-4 {
+  color: #878794;
+}
+
+.text-primary-5 {
+  color: #92929e;
+}
+
 .bg-dark {
   background-color: #212121;
 }
