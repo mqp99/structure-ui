@@ -1,0 +1,77 @@
+.form-group {
+	width: 100%;
+	margin-bottom: .75rem;
+
+	&.form-inline {
+		display: inline-flex;
+	}
+
+	.form-multiple {
+		width: 100%;
+		color: $clr-dark-3;
+		display: block;
+		font-size: 1rem;
+		line-height: 1.5;
+		border-radius: .25rem;
+		padding: .35rem .75rem;
+		background-color: #fff;
+		border: 1px solid $clr-light;
+		background-clip: padding-box;
+		transition: $transition-input;
+
+		/** CSS when focus*/
+		&:focus {
+			outline: none;
+			border: 1px solid $clr-dark-5;
+			box-shadow: 0 0 0 .2rem rgba($clr-dark-5, .2);
+		}
+
+		/** CSS size */
+		&.form-lg {
+			height: calc(2rem + 1rem + 2px)!important;
+		    font-size: 1.15rem!important;
+		    padding: 0.5rem 1rem!important;
+		}
+
+		&.form-sm {
+			height: calc(1.3rem + 0.5rem + 2px)!important;
+			font-size: 0.9rem!important;
+	    	padding: 0.15rem 0.5rem!important;
+		}
+
+		/** CSS disable resize for textarea */
+		&[class~="no-resize"] {
+			resize: none;
+		}
+
+		/** CSS height for input,select */
+		&:not([multiple]):not(textarea) {
+			height: calc(1.5rem + 0.75rem + 2px);
+		}
+
+		/** CSS padding for option */
+		&[multiple] option {
+			padding: 3px 0;
+		}
+
+		/** CSS when disabled*/
+		&[readonly],
+		&:disabled,
+		&.disabled {
+			pointer-events: none;
+			user-select: none;
+			background: $clr-light-3;
+		}
+
+		/** Use text */
+		&.form-multiple-use-text {
+			padding-left: 0;
+			background: transparent;
+			border: 1px solid transparent;
+			&:focus {
+				border: 1px solid $clr-dark-5;
+				box-shadow: 0 0 0 .2rem rgba($clr-dark-5, .2);
+			}
+		}
+	}
+}

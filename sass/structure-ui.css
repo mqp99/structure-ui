@@ -1240,6 +1240,73 @@ a[class*=btn] {
   box-shadow: 0 0 0 0.22rem rgba(249, 139, 26, 0.35);
 }
 
+.form-group {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+.form-group.form-inline {
+  display: inline-flex;
+}
+.form-group .form-multiple {
+  width: 100%;
+  color: #4e4e4e;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  padding: 0.35rem 0.75rem;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  background-clip: padding-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  /** CSS when focus*/
+  /** CSS size */
+  /** CSS disable resize for textarea */
+  /** CSS height for input,select */
+  /** CSS padding for option */
+  /** CSS when disabled*/
+  /** Use text */
+}
+.form-group .form-multiple:focus {
+  outline: none;
+  border: 1px solid #5e5e5e;
+  box-shadow: 0 0 0 0.2rem rgba(94, 94, 94, 0.2);
+}
+.form-group .form-multiple.form-lg {
+  height: calc(2rem + 1rem + 2px) !important;
+  font-size: 1.15rem !important;
+  padding: 0.5rem 1rem !important;
+}
+.form-group .form-multiple.form-sm {
+  height: calc(1.3rem + 0.5rem + 2px) !important;
+  font-size: 0.9rem !important;
+  padding: 0.15rem 0.5rem !important;
+}
+.form-group .form-multiple[class~=no-resize] {
+  resize: none;
+}
+.form-group .form-multiple:not([multiple]):not(textarea) {
+  height: calc(1.5rem + 0.75rem + 2px);
+}
+.form-group .form-multiple[multiple] option {
+  padding: 3px 0;
+}
+.form-group .form-multiple[readonly], .form-group .form-multiple:disabled, .form-group .form-multiple.disabled {
+  pointer-events: none;
+  -webkit-user-select: none;
+          user-select: none;
+  background: #f2f2f2;
+}
+.form-group .form-multiple.form-multiple-use-text {
+  padding-left: 0;
+  background: transparent;
+  border: 1px solid transparent;
+}
+.form-group .form-multiple.form-multiple-use-text:focus {
+  border: 1px solid #5e5e5e;
+  box-shadow: 0 0 0 0.2rem rgba(94, 94, 94, 0.2);
+}
+
 .text-dark {
   color: #363636;
 }
