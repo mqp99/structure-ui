@@ -4,8 +4,19 @@
 
 	&.form-inline {
 		display: inline-flex;
+		.form-check:not(:first-child) {
+			margin-left: 10px;
+		}
 	}
 
+	select[class='form-multiple'] {
+		appearance: none;
+		background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+		background-repeat: no-repeat, repeat;
+		background-position: right .1rem top 50%, 0 0;
+		background-size: 1.5rem auto, 100%;
+	}
+	
 	.form-multiple {
 		width: 100%;
 		color: $clr-dark-3;
@@ -48,10 +59,11 @@
 		&:not([multiple]):not(textarea) {
 			height: calc(1.5rem + 0.75rem + 2px);
 		}
-
 		/** CSS padding for option */
-		&[multiple] option {
-			padding: 3px 0;
+		&[multiple] {
+			option {
+				padding: 3px 0;
+			}
 		}
 
 		/** CSS when disabled*/

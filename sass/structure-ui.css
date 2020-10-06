@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Structure UI v0.0.1 (http://mqp99.github.io/structure-ui/)
  * Copyright 2020 The Minh Pham Author
@@ -1247,6 +1248,18 @@ a[class*=btn] {
 .form-group.form-inline {
   display: inline-flex;
 }
+.form-group.form-inline .form-check:not(:first-child) {
+  margin-left: 10px;
+}
+.form-group select[class=form-multiple] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.1rem top 50%, 0 0;
+  background-size: 1.5rem auto, 100%;
+}
 .form-group .form-multiple {
   width: 100%;
   color: #4e4e4e;
@@ -1305,6 +1318,75 @@ a[class*=btn] {
 .form-group .form-multiple.form-multiple-use-text:focus {
   border: 1px solid #5e5e5e;
   box-shadow: 0 0 0 0.2rem rgba(94, 94, 94, 0.2);
+}
+
+.form-check {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.form-check .form-multiple-check {
+  display: none;
+}
+.form-check .form-multiple-check + label:hover:before {
+  border: 1px solid #777;
+}
+.form-check .form-multiple-check + label:before {
+  content: "✓";
+  border: 1px solid #999;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 1.2;
+  margin-right: 2px;
+  text-align: center;
+  border-radius: 0.15rem;
+  color: transparent;
+  transform: rotate(180deg);
+  transition: background 0.15s ease-in-out, color 0.15s ease-in-out, border 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+.form-check .form-multiple-check:checked + label:before {
+  border: 1px solid #2c69c5;
+  transform: rotate(0deg);
+  color: #2c69c5;
+}
+.form-check .form-multiple-radio {
+  display: none;
+}
+.form-check .form-multiple-radio + label {
+  padding-left: 1.7rem;
+}
+.form-check .form-multiple-radio + label:before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+.form-check .form-multiple-radio + label:after {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: 3px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: transparent;
+  transform: scale(0.2);
+  transition: background 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+.form-check .form-multiple-radio:checked + label:before {
+  border: 1px solid #739de0;
+}
+.form-check .form-multiple-radio:checked + label:after {
+  background: #739de0;
+  transform: scale(1);
+}
+.form-check .form-multiple-label {
+  -webkit-user-select: none;
+          user-select: none;
 }
 
 .text-dark {
