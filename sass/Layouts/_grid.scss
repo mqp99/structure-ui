@@ -1,11 +1,29 @@
 @include create-row;
 
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
 @for $i from 1 through 12 {
 	@include create-col('xl', $i);
 	@include create-col('lg', $i);
 	@include create-col('md', $i);
 	@include create-col('sm', $i);
 	@include create-col('xs', $i);
+}
+
+@for $i from 1 through 12 {
+	@include create-col-single($i);
 }
 
 @for $i from 1 through 11 {
@@ -17,9 +35,5 @@
 }
 
 @for $i from 1 through 12 {
-	@include create-col-pull('xl', $i);
-	@include create-col-pull('lg', $i);
-	@include create-col-pull('md', $i);
-	@include create-col-pull('sm', $i);
-	@include create-col-pull('xs', $i);
+	@include create-col-pull($i);
 }

@@ -13,6 +13,13 @@
 	}
 }
 
+@mixin create-col-single($size) {
+	.col-#{$size} {
+		flex: 0 0 ($size * 8.333333333334%);
+    	max-width: $size * 8.333333333334%;
+	}
+}
+
 @mixin create-col($breakpoint, $size) {
 	.col-#{$breakpoint}-#{$size} {
 		flex: 0 0 ($size * 8.333333333334%);
@@ -26,8 +33,8 @@
 	}
 }
 
-@mixin create-col-pull($breakpoint, $size) {
-	.pull-#{$breakpoint}-#{$size} {
+@mixin create-col-pull($size) {
+	.pull-#{$size} {
 		order: $size;
 	}
 }
