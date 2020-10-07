@@ -4,6 +4,7 @@
 
 	&.form-inline {
 		display: inline-flex;
+		align-items: center;
 		.form-check:not(:first-child) {
 			margin-left: 10px;
 		}
@@ -11,12 +12,12 @@
 
 	select[class='form-multiple'] {
 		appearance: none;
-		background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+		background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
 		background-repeat: no-repeat, repeat;
-		background-position: right .1rem top 50%, 0 0;
+		background-position: right 0 top 50%, 0 0;
 		background-size: 1.5rem auto, 100%;
 	}
-	
+
 	.form-multiple {
 		width: 100%;
 		color: $clr-dark-3;
@@ -39,13 +40,13 @@
 
 		/** CSS size */
 		&.form-lg {
-			height: calc(2rem + 1rem + 2px)!important;
+			height: calc(2rem + 1rem)!important;
 		    font-size: 1.15rem!important;
 		    padding: 0.5rem 1rem!important;
 		}
 
 		&.form-sm {
-			height: calc(1.3rem + 0.5rem + 2px)!important;
+			height: calc(1.3rem + 0.5rem)!important;
 			font-size: 0.9rem!important;
 	    	padding: 0.15rem 0.5rem!important;
 		}
@@ -57,7 +58,7 @@
 
 		/** CSS height for input,select */
 		&:not([multiple]):not(textarea) {
-			height: calc(1.5rem + 0.75rem + 2px);
+			height: calc(1.5rem + 0.75rem);
 		}
 		/** CSS padding for option */
 		&[multiple] {
