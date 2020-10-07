@@ -13,7 +13,7 @@ a[class*="btn"] {
 	white-space: nowrap;
 	display: inline-block;
 	border-radius: .25rem;
-	padding: .35rem .75rem;
+	padding: .31333rem  .75rem;
 	background: transparent;
 	-webkit-touch-callout: none;
 	border: 1px solid transparent;
@@ -34,12 +34,12 @@ a[class*="btn"] {
 	/** Size button */
 	&.btn-sm {
 		font-size: 0.9rem!important;
-    	padding: 0.15rem 0.5rem!important;
+    	padding: .188rem  0.5rem!important;
 	}
 	&.btn-lg {
 		line-height: 2!important;
 	    font-size: 1.15rem!important;
-	    padding: 0.3rem 1rem!important;
+	    padding: 0.31333rem 1rem!important;
 	}
 
 	/** Disabled attr css */
