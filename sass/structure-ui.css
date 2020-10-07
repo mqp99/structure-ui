@@ -1121,6 +1121,192 @@ a[class*=btn] {
   box-shadow: 0 0 0 0.22rem rgba(249, 139, 26, 0.35);
 }
 
+a[class*=badge] {
+  text-decoration: none;
+}
+
+.badge {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 75%;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.65rem 0.25rem 0.65rem;
+  background: transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.badge:empty {
+  display: none;
+}
+.badge:hover {
+  cursor: default;
+}
+.badge.badge-round {
+  border-radius: 20px;
+}
+.badge.badge-outline-black {
+  color: #111111;
+  background: transparent;
+  border: 1px solid #111111;
+}
+.badge.badge-outline-black:hover {
+  box-shadow: 0 0 0 0.22rem rgba(17, 17, 17, 0.35);
+}
+.badge.badge-outline-dark {
+  color: #363636;
+  background: transparent;
+  border: 1px solid #363636;
+}
+.badge.badge-outline-dark:hover {
+  box-shadow: 0 0 0 0.22rem rgba(54, 54, 54, 0.35);
+}
+.badge.badge-outline-primary {
+  color: #424152;
+  background: transparent;
+  border: 1px solid #424152;
+}
+.badge.badge-outline-primary:hover {
+  box-shadow: 0 0 0 0.22rem rgba(66, 65, 82, 0.35);
+}
+.badge.badge-outline-gray {
+  color: #8e8e8e;
+  background: transparent;
+  border: 1px solid #8e8e8e;
+}
+.badge.badge-outline-gray:hover {
+  box-shadow: 0 0 0 0.22rem rgba(142, 142, 142, 0.35);
+}
+.badge.badge-outline-light {
+  color: #5e5e5e;
+  background: transparent;
+  border: 1px solid #dcdcdc;
+}
+.badge.badge-outline-light:hover {
+  box-shadow: 0 0 0 0.22rem rgba(220, 220, 220, 0.35);
+}
+.badge.badge-outline-pink {
+  color: #ce3079;
+  background: transparent;
+  border: 1px solid #ce3079;
+}
+.badge.badge-outline-pink:hover {
+  box-shadow: 0 0 0 0.22rem rgba(206, 48, 121, 0.35);
+}
+.badge.badge-outline-red {
+  color: #c52c2c;
+  background: transparent;
+  border: 1px solid #c52c2c;
+}
+.badge.badge-outline-red:hover {
+  box-shadow: 0 0 0 0.22rem rgba(197, 44, 44, 0.35);
+}
+.badge.badge-outline-blue {
+  color: #2c69c5;
+  background: transparent;
+  border: 1px solid #2c69c5;
+}
+.badge.badge-outline-blue:hover {
+  box-shadow: 0 0 0 0.22rem rgba(44, 105, 197, 0.35);
+}
+.badge.badge-outline-green {
+  color: #27b32b;
+  background: transparent;
+  border: 1px solid #27b32b;
+}
+.badge.badge-outline-green:hover {
+  box-shadow: 0 0 0 0.22rem rgba(39, 179, 43, 0.35);
+}
+.badge.badge-outline-orange {
+  color: #f98b1a;
+  background: transparent;
+  border: 1px solid #f98b1a;
+}
+.badge.badge-outline-orange:hover {
+  box-shadow: 0 0 0 0.22rem rgba(249, 139, 26, 0.35);
+}
+.badge.badge-black {
+  color: #f2f2f2;
+  background: #111111;
+}
+.badge.badge-black:hover {
+  background-color: #373737;
+  box-shadow: 0 0 0 0.22rem rgba(17, 17, 17, 0.35);
+}
+.badge.badge-dark {
+  color: #f2f2f2;
+  background: #363636;
+}
+.badge.badge-dark:hover {
+  background-color: #5c5c5c;
+  box-shadow: 0 0 0 0.22rem rgba(54, 54, 54, 0.35);
+}
+.badge.badge-primary {
+  color: #f2f2f2;
+  background: #424152;
+}
+.badge.badge-primary:hover {
+  background-color: #64637d;
+  box-shadow: 0 0 0 0.22rem rgba(66, 65, 82, 0.35);
+}
+.badge.badge-gray {
+  color: #f2f2f2;
+  background: #8e8e8e;
+}
+.badge.badge-gray:hover {
+  background-color: #7a7a7a;
+  box-shadow: 0 0 0 0.22rem rgba(160, 160, 160, 0.35);
+}
+.badge.badge-light {
+  color: #4e4e4e;
+  background: #dcdcdc;
+}
+.badge.badge-light:hover {
+  background-color: #d7d7d7;
+  box-shadow: 0 0 0 0.22rem rgba(218, 218, 218, 0.35);
+}
+.badge.badge-pink {
+  color: #f2f2f2;
+  background: #ce3079;
+}
+.badge.badge-pink:hover {
+  background-color: #b92b6d;
+  box-shadow: 0 0 0 0.22rem rgba(206, 48, 121, 0.35);
+}
+.badge.badge-red {
+  color: #f2f2f2;
+  background: #c54545;
+}
+.badge.badge-red:hover {
+  background-color: #b73939;
+  box-shadow: 0 0 0 0.22rem rgba(197, 69, 69, 0.35);
+}
+.badge.badge-blue {
+  color: #f2f2f2;
+  background: #2c69c5;
+}
+.badge.badge-blue:hover {
+  background-color: #396bb7;
+  box-shadow: 0 0 0 0.22rem rgba(69, 120, 197, 0.35);
+}
+.badge.badge-green {
+  color: #f2f2f2;
+  background: #27b32b;
+}
+.badge.badge-green:hover {
+  background-color: #229e26;
+  box-shadow: 0 0 0 0.22rem rgba(39, 179, 43, 0.35);
+}
+.badge.badge-orange {
+  color: #f2f2f2;
+  background: #f98b1a;
+}
+.badge.badge-orange:hover {
+  background-color: #ee7c06;
+  box-shadow: 0 0 0 0.22rem rgba(249, 139, 26, 0.35);
+}
+
 .form-group {
   width: 100%;
   margin-bottom: 0.75rem;

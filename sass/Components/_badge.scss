@@ -1,0 +1,192 @@
+a[class*="badge"] {
+	text-decoration: none;
+}
+
+.badge {
+	display: inline-block;
+	font-weight: normal;
+	font-size: 75%;
+	line-height: 1.5;
+	text-align: center;
+	white-space: nowrap;
+	border-radius: .25rem;
+	padding: .10rem .65rem .25rem .65rem;
+	background: transparent;
+	transition: $transition-btn;
+
+	&:empty {
+		display: none;
+	}
+
+	&:hover {
+		cursor: default;
+	}
+
+	&.badge-round {
+		border-radius: 20px;
+	}
+
+	&.badge-outline-black {
+		color: $clr-black;
+		background: transparent;
+		border: 1px solid $clr-black;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-black, .35);
+		}
+	}
+	&.badge-outline-dark {
+		color: $clr-dark;
+		background: transparent;
+		border: 1px solid $clr-dark;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-dark, .35);
+		}
+	}
+	&.badge-outline-primary {
+		color: $clr-primary;
+		background: transparent;
+		border: 1px solid $clr-primary;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-primary, .35);
+		}
+	}
+	&.badge-outline-gray {
+		color: $clr-gray;
+		background: transparent;
+		border: 1px solid $clr-gray;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-gray, .35);
+		}
+	}
+	&.badge-outline-light {
+		color: $clr-dark-5;
+		background: transparent;
+		border: 1px solid $clr-light;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-light, .35);
+		}
+	}
+	&.badge-outline-pink {
+		color: $clr-pink-1;
+		background: transparent;
+		border: 1px solid $clr-pink-1;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-pink-1, .35);
+		}
+	}
+	&.badge-outline-red {
+		color: $clr-red;
+		background: transparent;
+		border: 1px solid $clr-red;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-red, .35);
+		}
+	}
+	&.badge-outline-blue {
+		color: $clr-blue;
+		background: transparent;
+		border: 1px solid $clr-blue;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-blue, .35);
+		}
+	}
+	&.badge-outline-green {
+		color: $clr-green;
+		background: transparent;
+		border: 1px solid $clr-green;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-green, .35);
+		}
+	}
+	&.badge-outline-orange {
+		color: $clr-orange;
+		background: transparent;
+		border: 1px solid $clr-orange;
+		&:hover {
+			box-shadow: 0 0 0 .22rem rgba($clr-orange, .35);
+		}
+	}
+
+
+
+	&.badge-black {
+		color: $clr-light-3;
+		background: $clr-black;
+		&:hover {
+			background-color: lighten($clr-black, 15%);
+			box-shadow: 0 0 0 .22rem rgba($clr-black, .35);
+		}
+	}
+	&.badge-dark {
+		color: $clr-light-3;
+		background: $clr-dark;
+		&:hover {
+			background-color: lighten($clr-dark, 15%);
+			box-shadow: 0 0 0 .22rem rgba($clr-dark, .35);
+		}
+	}
+	&.badge-primary {
+		color: $clr-light-3;
+		background: $clr-primary;
+		&:hover {
+			background-color: lighten($clr-primary, 15%);
+			box-shadow: 0 0 0 .22rem rgba($clr-primary, .35);
+		}
+	}
+	&.badge-gray {
+		color: $clr-light-3;
+		background: $clr-gray;
+		&:hover {
+			background-color: darken($clr-gray-1, 15%);
+			box-shadow: 0 0 0 .22rem rgba($clr-gray-1, .35);
+		}
+	}
+	&.badge-light {
+		color: $clr-dark-3;
+		background: $clr-light;
+		&:hover {
+			background-color: darken($clr-gray-5, 1%);
+			box-shadow: 0 0 0 .22rem rgba($clr-gray-5, .35);
+		}
+	}
+	&.badge-pink {
+		color: $clr-light-3;
+		background: $clr-pink-1;
+		&:hover {
+			background-color: darken($clr-pink-1, 5%);
+			box-shadow: 0 0 0 .22rem rgba($clr-pink-1, .35);
+		}
+	}
+	&.badge-red {
+		color: $clr-light-3;
+		background: $clr-red-1;
+		&:hover {
+			background-color: darken($clr-red-1, 5%);
+			box-shadow: 0 0 0 .22rem rgba($clr-red-1, .35);
+		}
+	}
+	&.badge-blue {
+		color: $clr-light-3;
+		background: $clr-blue;
+		&:hover {
+			background-color: darken($clr-blue-1, 5%);
+			box-shadow: 0 0 0 .22rem rgba($clr-blue-1, .35);
+		}
+	}
+	&.badge-green {
+		color: $clr-light-3;
+		background: $clr-green;
+		&:hover {
+			background-color: darken($clr-green, 5%);
+			box-shadow: 0 0 0 .22rem rgba($clr-green, .35);
+		}
+	}
+	&.badge-orange {
+		color: $clr-light-3;
+		background: $clr-orange;
+		&:hover {
+			background-color: darken($clr-orange, 6%);
+			box-shadow: 0 0 0 .22rem rgba($clr-orange, .35);
+		}
+	}
+}
