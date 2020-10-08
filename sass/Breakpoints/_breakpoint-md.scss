@@ -2,6 +2,12 @@
 	.container {
 		max-width: 768px;
 	}
+	.modal {
+		.modal-container {
+			max-width: 70%;
+			min-width: 500px;
+		}
+	}
 	@for $i from 1 through 12 {
 		@include create-breakpoint-col('md', $i);
 	}

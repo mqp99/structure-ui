@@ -1,4 +1,11 @@
 @include breakpoint('xs', $breakpoint-xs) {
+	.modal {
+		.modal-container {
+			width: 95%;
+			max-width: 100%;
+			min-width: inherit;
+		}
+	}
 	@for $i from 1 through 12 {
 		@include create-breakpoint-col('xs', $i);
 	}
