@@ -830,6 +830,142 @@ textarea {
   order: 12;
 }
 
+.alert {
+  position: relative;
+  z-index: 10000;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.alert.alert-outline-black {
+  color: #111111;
+  background: transparent;
+  border: 1px solid #111111;
+}
+.alert.alert-outline-black:hover {
+  box-shadow: 0 0 0 0.22rem rgba(17, 17, 17, 0.35);
+}
+.alert.alert-outline-dark {
+  color: #363636;
+  background: transparent;
+  border: 1px solid #363636;
+}
+.alert.alert-outline-dark:hover {
+  box-shadow: 0 0 0 0.22rem rgba(54, 54, 54, 0.35);
+}
+.alert.alert-outline-primary {
+  color: #424152;
+  background: transparent;
+  border: 1px solid #424152;
+}
+.alert.alert-outline-primary:hover {
+  box-shadow: 0 0 0 0.22rem rgba(66, 65, 82, 0.35);
+}
+.alert.alert-outline-gray {
+  color: #8e8e8e;
+  background: transparent;
+  border: 1px solid #8e8e8e;
+}
+.alert.alert-outline-gray:hover {
+  box-shadow: 0 0 0 0.22rem rgba(142, 142, 142, 0.35);
+}
+.alert.alert-outline-light {
+  color: #5e5e5e;
+  background: transparent;
+  border: 1px solid #dcdcdc;
+}
+.alert.alert-outline-light:hover {
+  box-shadow: 0 0 0 0.22rem rgba(220, 220, 220, 0.35);
+}
+.alert.alert-outline-pink {
+  color: #ce3079;
+  background: transparent;
+  border: 1px solid #ce3079;
+}
+.alert.alert-outline-pink:hover {
+  box-shadow: 0 0 0 0.22rem rgba(206, 48, 121, 0.35);
+}
+.alert.alert-outline-red {
+  color: #c52c2c;
+  background: transparent;
+  border: 1px solid #c52c2c;
+}
+.alert.alert-outline-red:hover {
+  box-shadow: 0 0 0 0.22rem rgba(197, 44, 44, 0.35);
+}
+.alert.alert-outline-blue {
+  color: #2c69c5;
+  background: transparent;
+  border: 1px solid #2c69c5;
+}
+.alert.alert-outline-blue:hover {
+  box-shadow: 0 0 0 0.22rem rgba(44, 105, 197, 0.35);
+}
+.alert.alert-outline-green {
+  color: #27b32b;
+  background: transparent;
+  border: 1px solid #27b32b;
+}
+.alert.alert-outline-green:hover {
+  box-shadow: 0 0 0 0.22rem rgba(39, 179, 43, 0.35);
+}
+.alert.alert-outline-orange {
+  color: #f98b1a;
+  background: transparent;
+  border: 1px solid #f98b1a;
+}
+.alert.alert-outline-orange:hover {
+  box-shadow: 0 0 0 0.22rem rgba(249, 139, 26, 0.35);
+}
+.alert.alert-black {
+  color: #fff;
+  background: #151515;
+}
+.alert.alert-dark {
+  color: #fff;
+  background: #3e3e3e;
+}
+.alert.alert-primary {
+  color: #fff;
+  background: #515065;
+}
+.alert.alert-gray {
+  color: #fff;
+  background: #a0a0a0;
+}
+.alert.alert-light {
+  color: #4e4e4e;
+  background: #e6e6e6;
+}
+.alert.alert-pink {
+  color: #fff;
+  background: #ce3079;
+}
+.alert.alert-red {
+  color: #fff;
+  background: #c54545;
+}
+.alert.alert-blue {
+  color: #fff;
+  background: #4578c5;
+}
+.alert.alert-green {
+  color: #fff;
+  background: #47c545;
+}
+.alert.alert-orange {
+  color: #fff;
+  background: #fb9832;
+}
+.alert .alert-dismiss {
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+  font-size: 1rem;
+}
+
 a[class*=btn] {
   text-decoration: none;
 }
@@ -1133,7 +1269,7 @@ a[class*=badge] {
   text-align: center;
   white-space: nowrap;
   border-radius: 0.25rem;
-  padding: 0.1rem 0.65rem 0.25rem 0.65rem;
+  padding: 0.1rem 0.65rem 0.15rem 0.65rem;
   background: transparent;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
