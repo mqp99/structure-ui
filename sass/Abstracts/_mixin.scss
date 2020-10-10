@@ -1,9 +1,16 @@
+/**
+ *  Mixin break point:
+ */
+
 @mixin breakpoint($breakpoint,$breakpointWidth) {
 	@media (max-width: $breakpointWidth) {
 		@content;
 	}
 }
 
+/**
+ * Mixin create row:
+ */
 @mixin create-row {
 	.row {
 		display: flex;
@@ -13,6 +20,9 @@
 	}
 }
 
+/**
+ * Mixin create col:
+ */
 @mixin create-col-single($size) {
 	.col-#{$size} {
 		flex: 0 0 ($size * 8.333333333334%);
@@ -20,6 +30,9 @@
 	}
 }
 
+/**
+ * Mixin create col:
+ */
 @mixin create-col($breakpoint, $size) {
 	.col-#{$breakpoint}-#{$size} {
 		flex: 0 0 ($size * 8.333333333334%);
@@ -27,18 +40,27 @@
 	}
 }
 
+/**
+ * Mixin create col push:
+ */
 @mixin create-col-push($breakpoint, $size) {
 	.push-#{$breakpoint}-#{$size} {
 		margin-left: $size * 8.333333333334%;
 	}
 }
 
+/**
+ * Mixin create col pull:
+ */
 @mixin create-col-pull($size) {
 	.pull-#{$size} {
 		order: $size;
 	}
 }
 
+/**
+ * Mixin create col break point:
+ */
 @mixin create-breakpoint-col($breakpoint, $size) {
 	.col-#{$breakpoint}-#{$size} {
 		flex: 0 0 auto;
@@ -47,12 +69,18 @@
 	}
 }
 
+/**
+ * Mixin create col push break point:
+ */
 @mixin create-breakpoint-col-push($breakpoint, $size) {
 	.push-#{$breakpoint}-#{$size} {
 		margin-left: 0;
 	}
 }
 
+/**
+ * Mixin create background:
+ */
 @mixin create-bg($arrColor,$name) {
 	@each $name, $color in $arrColor {
 		@if $name == $name {
@@ -67,6 +95,9 @@
 	}
 }
 
+/**
+ * Mixin create color:
+ */
 @mixin create-color($arrColor,$name) {
 	@each $name, $color in $arrColor {
 		@if $name == $name {
