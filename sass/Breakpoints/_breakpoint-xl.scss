@@ -2,6 +2,10 @@
 	.container {
 		max-width: 1024px;
 	}
+	.col-xl {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
 	@for $i from 1 through 12 {
 		@include create-breakpoint-col('xl', $i);
 	}

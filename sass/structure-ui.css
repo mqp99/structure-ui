@@ -190,7 +190,12 @@ textarea {
   margin-left: -10px;
 }
 
-.col {
+.col,
+.col-xl,
+.col-lg,
+.col-md,
+.col-sm,
+.col-xs {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
@@ -2124,6 +2129,11 @@ a[class*=badge] {
     max-width: 1024px;
   }
 
+  .col-xl {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
   .col-xl-1 {
     flex: 0 0 auto;
     width: 100%;
@@ -2245,6 +2255,11 @@ a[class*=badge] {
     max-width: 900px;
   }
 
+  .col-lg {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
   .col-lg-1 {
     flex: 0 0 auto;
     width: 100%;
@@ -2364,6 +2379,11 @@ a[class*=badge] {
 @media (max-width: 900px) {
   .container {
     max-width: 768px;
+  }
+
+  .col-md {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .modal .modal-container {
@@ -2492,6 +2512,11 @@ a[class*=badge] {
     max-width: 650px;
   }
 
+  .col-sm {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
   .col-sm-1 {
     flex: 0 0 auto;
     width: 100%;
@@ -2613,6 +2638,11 @@ a[class*=badge] {
     width: 95%;
     max-width: 100%;
     min-width: inherit;
+  }
+
+  .col-xs {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .col-xs-1 {
