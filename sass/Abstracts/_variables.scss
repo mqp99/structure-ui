@@ -93,3 +93,19 @@ $clr-orange-2: #fda03f;
 $clr-orange-3: #fba953;
 $clr-orange-4: #fdb162;
 $clr-orange-5: #fdbe7d;
+
+/**
+ * Use mixin background vs text:
+ * dark color -> light color
+ */
+
+$clBlack: ("black": $clr-black, "black-1": $clr-black-1, "black-2": $clr-black-2, "black-3": $clr-black-3, "black-4": $clr-black-4, "black-5": $clr-black-5);
+$clDark: ("dark": $clr-dark, "dark-1": $clr-dark-1, "dark-2": $clr-dark-2, "dark-3": $clr-dark-3, "dark-4": $clr-dark-4, "dark-5": $clr-dark-5);
+$clPrimary: ("primary": $clr-primary, "primary-1": $clr-primary-1, "primary-2": $clr-primary-2, "primary-3": $clr-primary-3, "primary-4": $clr-primary-4, "primary-5": $clr-primary-5);
+$clGray: ("gray": $clr-gray, "gray-1": $clr-gray-1, "gray-2": $clr-gray-2, "gray-3": $clr-gray-3, "gray-4": $clr-gray-4, "gray-5": $clr-gray-5);
+$clLight: ("light": $clr-light, "light-1": $clr-light-1, "light-2": $clr-light-2, "light-3": $clr-light-3, "light-4": $clr-light-4, "light-5": $clr-light-5);
+$clPink: ("pink": $clr-pink, "pink-1": $clr-pink-1, "pink-2": $clr-pink-2, "pink-3": $clr-pink-3, "pink-4": $clr-pink-4, "pink-5": $clr-pink-5);
+$clRed: ("red": $clr-red, "red-1": $clr-red-1, "red-2": $clr-red-2, "red-3": $clr-red-3, "red-4": $clr-red-4, "red-5": $clr-red-5);
+$clBlue: ("blue": $clr-blue, "blue-1": $clr-blue-1, "blue-2": $clr-blue-2, "blue-3": $clr-blue-3, "blue-4": $clr-blue-4, "blue-5": $clr-blue-5);
+$clGreen: ("green": $clr-green, "green-1": $clr-green-1, "green-2": $clr-green-2, "green-3": $clr-green-3, "green-4": $clr-green-4, "green-5": $clr-green-5);
+$clOrange: ("orange": $clr-orange, "orange-1": $clr-orange-1, "orange-2": $clr-orange-2, "orange-3": $clr-orange-3, "orange-4": $clr-orange-4, "orange-5": $clr-orange-5);

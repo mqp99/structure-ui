@@ -15,14 +15,15 @@
 @import	'./Layouts/grid';
 
 @import	'./Components/alert';
-@import	'./Components/button';
 @import	'./Components/badge';
-@import	'./Components/modal';
-@import	'./Components/input';
+@import	'./Components/button';
 @import	'./Components/checkbox';
+@import	'./Components/input';
+@import	'./Components/modal';
 
-@import	'./Utilities/color';
 @import	'./Utilities/background';
+@import	'./Utilities/border';
+@import	'./Utilities/color';
 
 @import './Breakpoints/breakpoint-xl';
 @import './Breakpoints/breakpoint-lg';
