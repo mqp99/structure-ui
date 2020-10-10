@@ -1,0 +1,11 @@
+@include border($border,'border');
+@include border($borderBlack,'black');
+@include border($borderDark,'dark');
+@include border($borderPrimary,'primary');
+@include border($borderGray,'gray');
+@include border($borderLight,'light');
+@include border($borderPink,'pink');
+@include border($borderRed,'red');
+@include border($borderBlue,'blue');
+@include border($borderGreen,'green');
+@include border($borderOrange,'orange');

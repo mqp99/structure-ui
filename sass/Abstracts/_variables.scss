@@ -113,3 +113,19 @@ $clRed: ("red": $clr-red, "red-1": $clr-red-1, "red-2": $clr-red-2, "red-3": $cl
 $clBlue: ("blue": $clr-blue, "blue-1": $clr-blue-1, "blue-2": $clr-blue-2, "blue-3": $clr-blue-3, "blue-4": $clr-blue-4, "blue-5": $clr-blue-5);
 $clGreen: ("green": $clr-green, "green-1": $clr-green-1, "green-2": $clr-green-2, "green-3": $clr-green-3, "green-4": $clr-green-4, "green-5": $clr-green-5);
 $clOrange: ("orange": $clr-orange, "orange-1": $clr-orange-1, "orange-2": $clr-orange-2, "orange-3": $clr-orange-3, "orange-4": $clr-orange-4, "orange-5": $clr-orange-5);
+
+/**
+ * Use mixin border:
+ */
+
+$border: ("border": $clr-gray-3,"top": $clr-gray-3,"left": $clr-gray-3,"bottom": $clr-gray-3,"right": $clr-gray-3);
+$borderBlack: ("black": $clr-black,"top": $clr-black,"left": $clr-black,"bottom": $clr-black,"right": $clr-black);
+$borderDark: ("dark": $clr-dark,"top": $clr-dark,"left": $clr-dark,"bottom": $clr-dark,"right": $clr-dark);
+$borderPrimary: ("primary": $clr-primary,"top": $clr-primary,"left": $clr-primary,"bottom": $clr-primary,"right": $clr-primary);
+$borderGray: ("gray": $clr-gray,"top": $clr-gray,"left": $clr-gray,"bottom": $clr-gray,"right": $clr-gray);
+$borderLight: ("light": $clr-light,"top": $clr-light,"left": $clr-light,"bottom": $clr-light,"right": $clr-light);
+$borderPink: ("pink": $clr-pink,"top": $clr-pink,"left": $clr-pink,"bottom": $clr-pink,"right": $clr-pink);
+$borderRed: ("red": $clr-red-2,"top": $clr-red-2,"left": $clr-red-2,"bottom": $clr-red-2,"right": $clr-red-2);
+$borderBlue: ("blue": $clr-blue,"top": $clr-blue,"left": $clr-blue,"bottom": $clr-blue,"right": $clr-blue);
+$borderGreen: ("green": $clr-green,"top": $clr-green,"left": $clr-green,"bottom": $clr-green,"right": $clr-green);
+$borderOrange: ("orange": $clr-orange,"top": $clr-orange,"left": $clr-orange,"bottom": $clr-orange,"right": $clr-orange);

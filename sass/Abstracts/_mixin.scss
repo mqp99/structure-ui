@@ -111,3 +111,20 @@
 		}
 	}
 }
+
+/**
+ * Mixin create border:
+ */
+@mixin border($arrColor,$bdColor) {
+	@each $name, $color in $arrColor {
+		@if $name == $bdColor {
+			.border-#{$bdColor} {
+				border: 1px solid $color;
+			}
+		}@else {
+			.border-#{$name}-#{$bdColor} {
+				border-#{$name}: 1px solid $color;
+			}
+		}
+	}
+}
