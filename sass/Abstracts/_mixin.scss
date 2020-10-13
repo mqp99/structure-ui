@@ -113,6 +113,38 @@
 }
 
 /**
+ * Mixin create clearfix:
+ */
+@mixin create-clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+/**
+ * Mixin create display:
+ */
+@mixin create-breakpoint-display($breakpoint) {
+	.d-none-#{$breakpoint} {
+		display: none;
+	}
+	.d-flex-#{$breakpoint} {
+		display: flex;
+	}
+	.d-inline-flex-#{$breakpoint} {
+		display: inline-flex;
+	}
+	.d-block-#{$breakpoint} {
+		display: block;
+	}
+	.d-inline-block-#{$breakpoint} {
+		display: inline-block;
+	}
+}
+
+/**
  * Mixin create border:
  */
 @mixin border($arrColor,$bdColor) {

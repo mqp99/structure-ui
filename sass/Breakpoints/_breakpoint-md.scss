@@ -83,6 +83,9 @@
 			}
 		}
 	}
+
+	@include create-breakpoint-display('md');
+
 	@for $i from 1 through 12 {
 		@include create-breakpoint-col('md', $i);
 	}

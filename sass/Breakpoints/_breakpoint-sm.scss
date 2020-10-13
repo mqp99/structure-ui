@@ -77,6 +77,9 @@
 			}
 		}
 	}
+
+	@include create-breakpoint-display('sm');
+
 	@for $i from 1 through 12 {
 		@include create-breakpoint-col('sm', $i);
 	}
