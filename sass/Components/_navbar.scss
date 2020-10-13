@@ -26,12 +26,14 @@
 		position: sticky;
 		background: #fff;
 		top: 0;
+		z-index: 1000;
 	}
 	&.navbar-fixed {
 		position: fixed;
 		background: #fff;
 		top: 0;
 		left: 0;
+		z-index: 1000;
 		& ~ .container {
 			margin-top: 55px;
 		}
