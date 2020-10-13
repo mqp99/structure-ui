@@ -128,3 +128,27 @@
 		}
 	}
 }
+
+/**
+ * Mixin create arrow:
+ */
+@mixin create-arrow($location, $top, $right, $bottom, $left, $bdWidth, $bdColor) {
+	&::before {
+		position: absolute;
+		content: '';
+		top: $top;
+		left: $left;
+		right: $right;
+		bottom: $bottom;
+		border: $bdWidth solid transparent;
+		@if $location == 'top' {
+			border-color: $bdColor transparent transparent transparent;
+		}@else if $location == 'right' {
+			border-color: transparent $bdColor transparent transparent;
+		}@else if $location == 'bottom' {
+			border-color: transparent transparent $bdColor transparent;
+		}@else if $location == 'left' {
+			border-color: transparent transparent transparent $bdColor;
+		}
+	}
+}

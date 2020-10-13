@@ -6,6 +6,74 @@
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
+	.navbar.navbar-expand-sm {
+		padding: 0;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.nav-brand {
+			margin-left: 5px;
+		}
+		.nav-toggle {
+			display: flex;
+			margin-right: 10px;
+		}
+		.navbar-collapse {
+			overflow: hidden;
+  			max-height: 0;
+			margin-top: 1px;
+			padding: 0 10px;
+			flex-direction: column;
+			transition: max-height 0.15s ease-out;
+			&.navbar-expand {
+				max-height: calc(100vh - 55px);
+    			transition: max-height 0.25s ease-in;
+			}
+			.nav-search {
+				width: 100%;
+				padding: 10px 0;
+			}
+			.nav-menu {
+				width: 100%;
+				flex-direction: column;
+				.menu-item {
+					height: 40px;
+					line-height: 40px;
+					&.dropdown .dropdown-menu {
+						transition: inherit;
+					}
+					&.dropdown.selected {
+						display: contents;
+						.dropdown-menu {
+							position: unset;
+							width: 100%;
+							text-align: center;
+							 .dropdown-item .drop-link {
+								display: block;
+								text-align: left;
+							 }
+						}
+						.menu-link {
+							position: relative;
+							height: 40px;
+							&::before {
+								top: 19px!important;
+							}
+						}
+					}
+					.menu-link {
+						width: 100%;
+						display: block;
+						text-align: left;
+    					margin-right: 0;
+						padding: 0 5px 0 5px!important;
+						&::before {
+							top: 19px!important;
+						}
+					}
+				}
+			}
+		}
+	}
 	@for $i from 1 through 12 {
 		@include create-breakpoint-col('sm', $i);
 	}

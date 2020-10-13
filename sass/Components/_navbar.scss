@@ -1,0 +1,227 @@
+%flexCenter {
+	height: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+%rootLink {
+	color: $clr-gray;
+	padding: 0 5px;
+	margin-right: 2px;
+	text-decoration: none;
+	transition: color .15s ease-in-out;
+	&:focus,
+	&:hover {
+		color: darken($clr-gray, 50%);
+	}
+}
+.navbar {
+	display: inline-flex;
+	width: 100%;
+	height: 55px;
+	padding: 0 15px;
+	border-bottom: 1px solid $clr-light-2;
+
+	&.navbar-sticky {
+		position: sticky;
+		background: #fff;
+		top: 0;
+	}
+	&.navbar-fixed {
+		position: fixed;
+		background: #fff;
+		top: 0;
+		left: 0;
+		& ~ .container {
+			margin-top: 55px;
+		}
+	}
+
+	&.navbar-light {
+		background: #f8f9fa;
+		border-bottom: 1px solid transparent;
+		.navbar-collapse {
+			background: #f8f9fa;
+		}
+	}
+	&.navbar-dark {
+		color: $clr-light;
+		background: $clr-dark;
+		border-bottom: 1px solid transparent;
+		.navbar-collapse {
+			background: $clr-dark;
+			.nav-menu .menu-item {
+				&.selected {
+					.menu-link {
+						color: $clr-light;
+					}
+				}
+				 .menu-link {
+					color: $clr-gray-1;
+					&:focus,
+					&:hover {
+						color: $clr-light;
+					}
+				}
+			}
+			.nav-menu .menu-item.dropdown {
+				&.selected .menu-link {
+					color: $clr-light;
+				}
+				.dropdown-menu {
+					background: $clr-dark;
+					border: 1px solid #565656;
+					.dropdown-item .drop-link {
+						color: $clr-gray-1;
+						&:hover {
+							color: $clr-light;
+							background: $clr-dark-3;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.navbar-black {
+		color: $clr-light;
+		background: $clr-black;
+		border-bottom: 1px solid transparent;
+		.navbar-collapse {
+			background: $clr-black;
+			.nav-menu .menu-item {
+				&.selected {
+					.menu-link {
+						color: $clr-light;
+					}
+				}
+				 .menu-link {
+					color: $clr-gray-1;
+					&:focus,
+					&:hover {
+						color: $clr-light;
+					}
+				}
+			}
+			.nav-menu .menu-item.dropdown {
+				&.selected .menu-link {
+					color: $clr-light;
+				}
+				.dropdown-menu {
+					background: $clr-black;
+					border: 1px solid #565656;
+					.dropdown-item .drop-link {
+						color: $clr-gray-1;
+						&:hover {
+							color: $clr-light;
+							background: $clr-black-3;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#{&},
+	.navbar-collapse {
+		background: #fff;
+		z-index: 10;
+	}
+
+	.nav-brand {
+		padding: 10px;
+		font-size: 1.3rem;
+		@extend %flexCenter;
+	}
+	.nav-toggle {
+		display: none;
+		@extend %flexCenter;
+	}
+	.navbar-collapse {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.nav-menu {
+			display: inline-flex;
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			list-style: none;
+			.menu-item {
+				.menu-link {
+					@extend %flexCenter;
+					@extend %rootLink;
+				}
+				&.disabled {
+					opacity: 0.4;
+					user-select: none;
+					pointer-events: none;
+				}
+				&.selected .menu-link {
+					color: darken($clr-black, 100%);
+				}
+				/** Dropdown menu CSS */
+				&.dropdown {
+					position: relative;
+					&.selected {
+						.menu-link {
+							color: darken($clr-black, 100%);
+						}
+						.dropdown-menu {
+							top: 55px;
+							opacity: 1;
+							visibility: visible;
+						}
+					}
+					.menu-link {
+						padding: 0 10px 0 5px;
+						@include create-arrow('top', 27px , 0px, auto, auto, 5px, $clr-gray-2);
+					}
+					/** Dropdown content CSS */
+					.dropdown-menu {
+						position: absolute;
+						width: 230px;
+						margin: 0;
+						top: 100px;
+						z-index: 100;
+						padding: 10px 0;
+						list-style: none;
+						border-radius: .25rem;
+						background: $clr-light-5;
+						border: 1px solid $clr-light-2;
+						/** Hidden drop menu */
+							opacity: 0;
+							visibility: hidden;
+							transition: all .15s ease-in;
+						/** Dropdown item CSS */
+						.dropdown-item {
+							height: 35px;
+							/** Dropdown link CSS */
+							.drop-link {
+								color: $clr-dark-5;
+								display: block;
+								margin-right: 0;
+								line-height: 35px;
+								padding-left: 20px;
+								text-decoration: none;
+								transition: background .25s ease-out, color .25s ease-out;
+								&:hover {
+									background: $clr-light-4;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.nav-search {
+			@extend %flexCenter;
+			.form-group {
+				margin-bottom: 0;
+				.btn {
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+}
