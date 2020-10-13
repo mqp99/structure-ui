@@ -24,6 +24,7 @@
 			margin-right: 10px;
 		}
 		.navbar-collapse {
+			display: block;
 			overflow: hidden;
   			max-height: 0;
 			margin-top: 1px;
@@ -36,10 +37,12 @@
 			}
 			.nav-search {
 				width: 100%;
+				height: auto;
 				padding: 10px 0;
 			}
 			.nav-menu {
 				width: 100%;
+				height: auto;
 				flex-direction: column;
 				.menu-item {
 					height: 40px;
