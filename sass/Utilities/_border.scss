@@ -1,4 +1,6 @@
-@include border($border,'border');
+.border{
+	border: 1px solid $clr-gray;
+}
 @include border($borderBlack,'black');
 @include border($borderDark,'dark');
 @include border($borderPrimary,'primary');
