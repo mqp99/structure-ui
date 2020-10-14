@@ -16,6 +16,7 @@
 	}
 }
 .navbar {
+	position: relative;
 	display: inline-flex;
 	width: 100%;
 	height: 55px;
@@ -23,18 +24,19 @@
 	border-bottom: 1px solid $clr-light-2;
 
 	&.navbar-sticky {
-		position: sticky;
+		position: sticky!important;
 		background: #fff;
 		top: 0;
 		z-index: 1000;
 	}
 	&.navbar-fixed {
-		position: fixed;
+		position: fixed!important;
 		background: #fff;
 		top: 0;
 		left: 0;
 		z-index: 1000;
-		& ~ .container {
+		& ~ .container,
+		& ~ .container-max {
 			margin-top: 55px;
 		}
 	}

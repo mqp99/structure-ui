@@ -32,12 +32,12 @@
 
 	&[data-direction='top']::before {
 		left: 50%;
-		bottom: calc(100% + 5px);
+		bottom: calc(100% + 7px);
 		transform: translateX(-50%);
 	}
 	&[data-direction='top']::after {
 		left: 50%;
-		bottom: 100%;
+		bottom: calc(100% + 2px);
 		border-bottom-width: 0;
 		transform: translateX(-50%);
 		border-top-color: rgba($clr-black, .8);
@@ -45,12 +45,12 @@
 
 	&[data-direction='right']::before {
 		top: 50%;
-		left: calc(100% + 5px);
+		left: calc(100% + 7px);
 		transform: translateY(-50%);
 	}
 	&[data-direction='right']::after {
 		top: 50%;
-		left: 100%;
+		left: calc(100% + 2px);
 		border-left-width: 0;
 		transform: translateY(-50%);
 		border-right-color: rgba($clr-black, .8);
@@ -58,12 +58,12 @@
 
 	&[data-direction='bottom']::before {
 		left: 50%;
-		top: calc(100% + 5px);
+		top: calc(100% + 7px);
 		transform: translateX(-50%);
 	}
 	&[data-direction='bottom']::after {
 		left: 50%;
-		top: 100%;
+		top: calc(100% + 2px);
 		border-top-width: 0;
 		transform: translateX(-50%);
 		border-bottom-color: rgba($clr-black, .8);
@@ -71,12 +71,12 @@
 
 	&[data-direction='left']::before {
 		top: 50%;
-		right: calc(100% + 5px);
+		right: calc(100% + 7px);
 		transform: translateY(-50%);
 	}
 	&[data-direction='left']::after {
 		top: 50%;
-		right: 100%;
+		right: calc(100% + 2px);
 		border-right-width: 0;
 		transform: translateY(-50%);
 		border-left-color: rgba($clr-black, .8);
