@@ -7,6 +7,7 @@
 		padding: 5px;
 		font-size: .8em;
 		line-height: 1.4;
+		white-space: nowrap;
 		border-radius: .25rem;
 		content: attr(title);
 		color: $clr-light-5;
